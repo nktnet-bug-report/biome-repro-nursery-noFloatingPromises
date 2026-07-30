@@ -1,3 +1,4 @@
+// Change to `Promise<void>` and the error goes away
 let promise: Promise<void> | undefined;
 
 const sleep = async (ms: number) => {
